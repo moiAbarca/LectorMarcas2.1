@@ -63,6 +63,7 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< .merge_file_iJgHgC
         internal static System.Drawing.Bitmap _48306 {
             get {
                 object obj = ResourceManager.GetObject("_48306", resourceCulture);
@@ -83,6 +84,8 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> .merge_file_YPeEZi
         internal static System.Drawing.Bitmap download_256 {
             get {
                 object obj = ResourceManager.GetObject("download-256", resourceCulture);
@@ -93,6 +96,7 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
+<<<<<<< .merge_file_iJgHgC
         internal static System.Drawing.Icon excel {
             get {
                 object obj = ResourceManager.GetObject("excel", resourceCulture);
@@ -113,6 +117,8 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Icon similar a (Icono).
         /// </summary>
+=======
+>>>>>>> .merge_file_YPeEZi
         internal static System.Drawing.Icon Help {
             get {
                 object obj = ResourceManager.GetObject("Help", resourceCulture);
@@ -163,6 +169,7 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+<<<<<<< .merge_file_iJgHgC
         internal static System.Drawing.Bitmap office_stuff_printer_icon {
             get {
                 object obj = ResourceManager.GetObject("office_stuff_printer_icon", resourceCulture);
@@ -173,6 +180,8 @@ namespace LectorMarcas.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+=======
+>>>>>>> .merge_file_YPeEZi
         internal static System.Drawing.Bitmap Ok {
             get {
                 object obj = ResourceManager.GetObject("Ok", resourceCulture);

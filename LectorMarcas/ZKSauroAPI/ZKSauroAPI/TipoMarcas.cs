@@ -13,8 +13,12 @@ namespace ZKSauroAPI
         BreakOut, // 2
         BreakIn,  // 3
         Ot_In,    // 4
+<<<<<<< .merge_file_QMpvah
         Ot_Out,   // 5
         None      // 6
+=======
+        Ot_Out    // 5
+>>>>>>> .merge_file_bvftCz
     }
 
 }

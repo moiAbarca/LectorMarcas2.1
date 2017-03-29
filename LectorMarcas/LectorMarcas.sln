@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
@@ -84,6 +84,44 @@ Global
 		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectorMarcas", "LectorMarcas\LectorMarcas.csproj", "{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGFDataLayer", "..\SGFDataLayer\SGFDataLayer.csproj", "{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZKSauroAPI", "ZKSauroAPI\ZKSauroAPI.csproj", "{11228747-ECBA-4B18-A2E6-373F67DFD9E9}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

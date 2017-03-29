@@ -1,0 +1,8 @@
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\bin\Debug\ZKSauroAPI.dll
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\bin\Debug\ZKSauroAPI.pdb
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\bin\Debug\Interop.zkemkeeper.dll
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\obj\Debug\ZKSauroAPI.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\obj\Debug\Interop.zkemkeeper.dll
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\obj\Debug\ZKSauroAPI.csproj.ResolveComReference.cache
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\obj\Debug\ZKSauroAPI.dll
+\\Mac\Home\Desktop\LectorMarcas\LectorMarcas\ZKSauroAPI\obj\Debug\ZKSauroAPI.pdb

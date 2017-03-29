@@ -53,6 +53,73 @@ namespace LectorMarcas.PRGClass
             return lst;
         }
 
+<<<<<<< .merge_file_MuvzxN
+=======
+        /// <summary>
+        /// Obtiene los datos del Enrolado
+        /// </summary>
+        /// <param name="Rut">El rut del enrolado a consultar</param>
+        /// <param name="Dv">El digito verificador del enrolado a consultar</param>
+        /// <returns>Retorna una coleccion del tipo <code>List/<Enrolados/></code></returns>
+        public List<Enrolados> Get( int Rut, string Dvs )
+        {
+            var list = new List<Enrolados>();
+            BD.Conectar();
+
+            BD.CrearComando("call spGetEnroladosRut(@Rut)");
+            BD.AsignarParametroEntero("@Rut", Rut);
+            DbDataReader dr = BD.EjecutarConsulta();
+
+            DataTable dt = new DataTable();
+            dt.Load(dr);
+            this.count = dt.Rows.Count;
+            DataTableReader reader = new DataTableReader(dt);
+
+            if (this.count <= 0)
+                return list;
+
+            while (reader.Read())
+            {
+                Enrolados e = new Enrolados()
+                {
+                    IdEnroll = reader.IsDBNull(reader.GetOrdinal("IdEnroll")) ? 0 : reader.GetInt32(reader.GetOrdinal("IdEnroll")),
+                    Rut = reader.IsDBNull(reader.GetOrdinal("Rut")) ? 0 : reader.GetInt32(reader.GetOrdinal("Rut")),
+                    Dv = reader.IsDBNull(reader.GetOrdinal("Dv")) ? "" : reader.GetString(reader.GetOrdinal("Dv")),
+                    Nombre = reader.IsDBNull(reader.GetOrdinal("Nombre")) ? "" : reader.GetString(reader.GetOrdinal("Nombre")),
+                    Nacionalidad = reader.IsDBNull(reader.GetOrdinal("Nacionalidad")) ? "" : reader.GetString(reader.GetOrdinal("Nacionalidad")),
+                    FechaNacimiento = reader.IsDBNull(reader.GetOrdinal("FechaNacimiento")) ? Convert.ToDateTime("19000101") : reader.GetDateTime(reader.GetOrdinal("FechaNacimiento")),
+                    Telefonos = reader.IsDBNull(reader.GetOrdinal("Telefonos")) ? "" : reader.GetString(reader.GetOrdinal("Telefonos")),
+                    AltaLaboral = reader.IsDBNull(reader.GetOrdinal("AltaLaboral")) ? Convert.ToDateTime("19000101") : reader.GetDateTime(reader.GetOrdinal("AltaLaboral")),
+                    Direccion = reader.IsDBNull(reader.GetOrdinal("Direccion")) ? "" : reader.GetString(reader.GetOrdinal("Direccion")),
+                    Genero = reader.IsDBNull(reader.GetOrdinal("Genero")) ? "" : reader.GetString(reader.GetOrdinal("Genero")),
+                    // Foto = reader.IsDBNull(reader.GetOrdinal("Foto")) ? byte[null] : reader.GetByte(reader.GetOrdinal("Foto")),
+                };
+                list.Add(e);
+            }
+            if (list.Count == 1)
+            {
+                this.IdEnroll = list[0].IdEnroll;
+                this.Rut = list[0].Rut;
+                this.Dv = list[0].Dv;
+                this.Nombre = list[0].Nombre;
+                this.Nacionalidad = list[0].Nacionalidad;
+                this.FechaNacimiento = list[0].FechaNacimiento;
+                this.Telefonos = list[0].Telefonos;
+                this.AltaLaboral = list[0].AltaLaboral;
+                this.Direccion = list[0].Direccion;
+                this.Genero = list[0].Genero;
+                this.Foto = list[0].Foto;
+            }
+
+            reader.Close();
+            BD.Desconectar();
+            return list;
+
+ 
+        }
+
+
+>>>>>>> .merge_file_rCn9nj
         public List<Enrolados> Get(int IdEnroll)
         { 
             var list = new List<Enrolados>();
@@ -189,5 +256,37 @@ namespace LectorMarcas.PRGClass
             }
             return lRet;
         }
+<<<<<<< .merge_file_MuvzxN
     }
 }
+=======
+
+        public Boolean GetFormulario()
+        {
+            Boolean lRet = true;
+            try
+            {
+                BD.Conectar();
+                BD.CrearComando("call spUpdEnrolados(@Rut)");
+                //BD.EjecutarConsulta();
+
+            }
+            catch (BaseDatosException)
+            {
+
+                throw new ReglasNegocioException("Error al guardar datos en la base de datos.");
+            }
+            catch (ReglasNegocioException)
+            {
+                lRet = false;
+                throw new ReglasNegocioException("Error al actualizar los datos");
+            }
+            finally
+            {
+                BD.Desconectar();
+            }
+            return lRet;
+        }
+    }
+}
+>>>>>>> .merge_file_rCn9nj

@@ -9,7 +9,10 @@ using System.Data.Common;
 using System.Data;
 
 using ZKSauroAPI;
+<<<<<<< .merge_file_imHlpw
 using System.Globalization;
+=======
+>>>>>>> .merge_file_rxGbtu
 
 namespace LectorMarcas.PRGClass
 {
@@ -17,6 +20,10 @@ namespace LectorMarcas.PRGClass
     {
         BaseDatos BD;
 
+<<<<<<< .merge_file_imHlpw
+=======
+
+>>>>>>> .merge_file_rxGbtu
         public clsRegistroAsistencia()
         {
             BD = new BaseDatos();
@@ -56,7 +63,11 @@ namespace LectorMarcas.PRGClass
             var list = new List<registroasistencia>();
             BD.Conectar();
 
+<<<<<<< .merge_file_imHlpw
             BD.CrearComando("call spGetRegistroAsistencia(@IdEnroll)");
+=======
+            BD.CrearComando("call spGetEnrolados(@IdEnroll)");
+>>>>>>> .merge_file_rxGbtu
             BD.AsignarParametroEntero("@IdEnroll", IdEnroll);
             DbDataReader dr = BD.EjecutarConsulta();
 
@@ -77,6 +88,7 @@ namespace LectorMarcas.PRGClass
                     Fechahoramarca    = reader.IsDBNull(reader.GetOrdinal("Fechahoramarca")) ? Convert.ToDateTime("19000101") : reader.GetDateTime(reader.GetOrdinal("Fechahoramarca")),
                     Fechahoraregistro = reader.IsDBNull(reader.GetOrdinal("Fechahoraregistro")) ? Convert.ToDateTime("19000101") : reader.GetDateTime(reader.GetOrdinal("Fechahoraregistro")),
                     Ipdispositivo     = reader.IsDBNull(reader.GetOrdinal("Ipdispositivo")) ? "" : reader.GetString(reader.GetOrdinal("Ipdispositivo")),
+<<<<<<< .merge_file_imHlpw
                     Metodoregistro    = reader.IsDBNull(reader.GetOrdinal("Metodoregistro")) ? 0 : reader.GetInt32(reader.GetOrdinal("MetodoRegistro")),
                     Tipoacceso        = reader.IsDBNull(reader.GetOrdinal("Tipoacceso")) ? 0 : reader.GetInt32(reader.GetOrdinal("TipoAcceso")),
 
@@ -118,6 +130,10 @@ namespace LectorMarcas.PRGClass
                     Ipdispositivo = reader.IsDBNull(reader.GetOrdinal("Ipdispositivo")) ? "" : reader.GetString(reader.GetOrdinal("Ipdispositivo")),
                     Metodoregistro = reader.IsDBNull(reader.GetOrdinal("Metodoregistro")) ? 0 : reader.GetInt32(reader.GetOrdinal("MetodoRegistro")),
                     Tipoacceso = reader.IsDBNull(reader.GetOrdinal("Tipoacceso")) ? 0 : reader.GetInt32(reader.GetOrdinal("TipoAcceso")),
+=======
+                    Metodoregistro    = reader.IsDBNull(reader.GetOrdinal("Metodoregistro")) ? 0 : reader.GetInt32(reader.GetOrdinal("Metodoregistro")),
+                    Tipoacceso        = reader.IsDBNull(reader.GetOrdinal("Tipoacceso")) ? 0 : reader.GetInt32(reader.GetOrdinal("Tipoacceso")),
+>>>>>>> .merge_file_rxGbtu
 
                 };
                 list.Add(e);
@@ -129,7 +145,10 @@ namespace LectorMarcas.PRGClass
         }
 
 
+<<<<<<< .merge_file_imHlpw
 
+=======
+>>>>>>> .merge_file_rxGbtu
         /// <summary>
         /// Obtiene colección con la asistecia de un IdEnrol
         /// </summary>
@@ -175,13 +194,18 @@ namespace LectorMarcas.PRGClass
 
 
         /// <summary>
+<<<<<<< .merge_file_imHlpw
         /// 
+=======
+        /// Graba el registro de asistencia
+>>>>>>> .merge_file_rxGbtu
         /// </summary>
         /// <returns>Retorna true en caso de almacenar correctamente los datos en otro caso false</returns>
         public bool Save()
         {
             bool lret = false;
 
+<<<<<<< .merge_file_imHlpw
 
             return lret;
         }
@@ -233,6 +257,41 @@ namespace LectorMarcas.PRGClass
                return lret;
             }
             db.ConfirmarTransaccion();
+=======
+            return lret;
+        }
+
+        public bool Save( List<UsuarioMarcaje> lstMarcas )
+        {
+            bool lret = false;
+
+            clsRegistroAsistencia obj = new clsRegistroAsistencia();
+
+            // BD.ComenzarTransaccion();
+            try
+            {
+                foreach( UsuarioMarcaje o in lstMarcas)
+                {
+                    obj.Idenroll          = o.NumeroCredencial;
+                    obj.Fechahoraregistro = Convert.ToDateTime(o.Anio + o.Mes.ToString().PadLeft(2, '0') + o.Dia.ToString().PadLeft(2, '0') + " " + o.Hora + ":" +o.Minuto + ":" + o.Segundo );
+                    obj.Fechahoramarca    = Convert.ToDateTime(o.Anio + o.Mes.ToString().PadLeft(2, '0') + o.Dia.ToString().PadLeft(2, '0') + " " + o.Hora + ":" + o.Minuto + ":" + o.Segundo);
+                    obj.Ipdispositivo     = GlobalVars.Ip;
+                    obj.Metodoregistro    = (int)o.MetodoMarca;
+                    obj.Tipoacceso        = o.TipoMarca;
+                    
+                    obj.Save();
+                    
+                    
+                }
+                lret = true;
+
+            }
+            catch (Exception )
+            {
+               // BD.CancelarTransaccion();
+            }
+            // BD.ConfirmarTransaccion();
+>>>>>>> .merge_file_rxGbtu
             return lret;
 
         }

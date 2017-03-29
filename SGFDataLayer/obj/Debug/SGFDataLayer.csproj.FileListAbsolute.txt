@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_TU2oBa
 C:\Users\jdonoso\documents\visual studio 2013\Projects\SGFDataLayer\obj\Debug\SGFDataLayer.csprojResolveAssemblyReference.cache
 C:\Users\jdonoso\documents\visual studio 2013\Projects\SGFDataLayer\bin\Debug\SGFDataLayer.dll
 C:\Users\jdonoso\documents\visual studio 2013\Projects\SGFDataLayer\bin\Debug\SGFDataLayer.pdb
@@ -13,3 +14,10 @@ C:\Users\jdonoso.IMLG\Desktop\20170322_2\LectorMarcas\SGFDataLayer\bin\Debug\SGF
 C:\Users\jdonoso.IMLG\Desktop\20170322_2\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.csprojResolveAssemblyReference.cache
 C:\Users\jdonoso.IMLG\Desktop\20170322_2\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.dll
 C:\Users\jdonoso.IMLG\Desktop\20170322_2\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.pdb
+=======
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\bin\Debug\SGFDataLayer.dll
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\bin\Debug\SGFDataLayer.pdb
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.dll
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.pdb
+>>>>>>> .merge_file_KrtAuj

@@ -22,6 +22,7 @@ namespace LectorMarcas.Properties {
                 return defaultInstance;
             }
         }
+<<<<<<< .merge_file_EwopXY
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -32,5 +33,7 @@ namespace LectorMarcas.Properties {
                 return ((string)(this["relojcontrolConnectionString"]));
             }
         }
+=======
+>>>>>>> .merge_file_xTRlPB
     }
 }

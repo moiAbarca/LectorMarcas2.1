@@ -1,0 +1,115 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+<<<<<<< .merge_file_T6Wv58
+VisualStudioVersion = 12.0.40629.0
+=======
+VisualStudioVersion = 12.0.21005.1
+>>>>>>> .merge_file_ZiKUOE
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LectorMarcas", "LectorMarcas\LectorMarcas.csproj", "{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGFDataLayer", "..\SGFDataLayer\SGFDataLayer.csproj", "{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZKSauroAPI", "ZKSauroAPI\ZKSauroAPI.csproj", "{11228747-ECBA-4B18-A2E6-373F67DFD9E9}"
+EndProject
+<<<<<<< .merge_file_T6Wv58
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework", "metroframework-modern-ui-master\MetroFramework\MetroFramework.csproj", "{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Demo", "metroframework-modern-ui-master\MetroFramework.Demo\MetroFramework.Demo.csproj", "{AF988819-4618-4852-9506-C1D06D04F6B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9579AFCE-35B4-431F-9DC3-F85E4294D40C}"
+	ProjectSection(SolutionItems) = preProject
+		metroframework-modern-ui-master\build.cmd = metroframework-modern-ui-master\build.cmd
+		metroframework-modern-ui-master\CHANGELOG.md = metroframework-modern-ui-master\CHANGELOG.md
+		metroframework-modern-ui-master\LICENSE.md = metroframework-modern-ui-master\LICENSE.md
+		metroframework-modern-ui-master\MetroFramework.Public.snk = metroframework-modern-ui-master\MetroFramework.Public.snk
+		metroframework-modern-ui-master\MetroFramework.snk = metroframework-modern-ui-master\MetroFramework.snk
+		metroframework-modern-ui-master\README.md = metroframework-modern-ui-master\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Design", "metroframework-modern-ui-master\MetroFramework.Design\MetroFramework.Design.csproj", "{7316584D-9A16-4280-A8AB-6D45198C6E4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroFramework.Fonts", "metroframework-modern-ui-master\MetroFramework.Fonts\MetroFramework.Fonts.csproj", "{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}"
+EndProject
+=======
+>>>>>>> .merge_file_ZiKUOE
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+<<<<<<< .merge_file_T6Wv58
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+=======
+		Release|Any CPU = Release|Any CPU
+>>>>>>> .merge_file_ZiKUOE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+<<<<<<< .merge_file_T6Wv58
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|x86.ActiveCfg = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|x86.ActiveCfg = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Debug|x86.Build.0 = Debug|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|x86.ActiveCfg = Release|x86
+		{BB41AC8B-CBED-4387-A7E0-4567EDB3F57F}.Release|x86.Build.0 = Release|x86
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Debug|x86.Build.0 = Debug|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF988819-4618-4852-9506-C1D06D04F6B2}.Release|x86.ActiveCfg = Release|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7316584D-9A16-4280-A8AB-6D45198C6E4D}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2FCAE8-C2FA-41BD-90EA-16103EA07B26}.Release|x86.ActiveCfg = Release|Any CPU
+=======
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2137ABD-8608-4B46-A57B-A9FE0B0D2816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3424BF6-FE82-4FAA-92D5-D9E4E3C1FDC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11228747-ECBA-4B18-A2E6-373F67DFD9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> .merge_file_ZiKUOE
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -8,7 +8,11 @@ namespace ZKSauroAPI
         private ZKSauroAPI.MarcajeOperativo a;
 
 
+<<<<<<< .merge_file_JSUl8B
         private TipoMarcas _tipoMarca;
+=======
+        private int _tipoMarca;
+>>>>>>> .merge_file_IS2IMT
         private MetodoMarcas _metodomarca;
 
         public int Anio
@@ -29,7 +33,11 @@ namespace ZKSauroAPI
             set;
         }
 
+<<<<<<< .merge_file_JSUl8B
         public TipoMarcas TipoMarca
+=======
+        public int TipoMarca
+>>>>>>> .merge_file_IS2IMT
         {
             get { return _tipoMarca; }
             set { _tipoMarca = value; }
@@ -106,6 +114,7 @@ namespace ZKSauroAPI
 
                 switch (_tipoMarca)
                 {
+<<<<<<< .merge_file_JSUl8B
                     case TipoMarcas.CheckIn:
                         sret = "Entrada";
                         break;
@@ -122,6 +131,24 @@ namespace ZKSauroAPI
                         sret = "Entrada";
                         break;
                     case TipoMarcas.Ot_Out:
+=======
+                    case (int)TipoMarcas.CheckIn:
+                        sret = "Entrada";
+                        break;
+                    case (int)TipoMarcas.CheckOut:
+                        sret = "Salida";
+                        break;
+                    case (int)TipoMarcas.BreakIn:
+                        sret = "Entrada Colación";
+                        break;
+                    case (int)TipoMarcas.BreakOut:
+                        sret = "Salida Colación";
+                        break;
+                    case (int)TipoMarcas.Ot_In:
+                        sret = "Entrada";
+                        break;
+                    case (int)TipoMarcas.Ot_Out:
+>>>>>>> .merge_file_IS2IMT
                         sret = "Salida";
                         break;
                 }

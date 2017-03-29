@@ -479,7 +479,11 @@ namespace ZKSauroAPI
                                 Hora = num5,
                                 Minuto = num6,
                                 Segundo = num7,
+<<<<<<< .merge_file_bPR6ky
                                 TipoMarca = (TipoMarcas) num1,
+=======
+                                TipoMarca = num1,
+>>>>>>> .merge_file_DHceBT
                                 MetodoMarca = (MetodoMarcas)num
                             };
                             this.lstMarcajes.Add(userData);
