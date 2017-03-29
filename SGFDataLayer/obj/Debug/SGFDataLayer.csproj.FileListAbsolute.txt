@@ -1,0 +1,5 @@
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\bin\Debug\SGFDataLayer.dll
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\bin\Debug\SGFDataLayer.pdb
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.dll
+\\Mac\Home\Desktop\LectorMarcas\SGFDataLayer\obj\Debug\SGFDataLayer.pdb
